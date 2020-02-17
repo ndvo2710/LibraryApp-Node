@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/ndvo2710/LibraryApp-Node#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.17.1",
+    "hbs": "^4.1.0",
+    "path": "^0.12.7"
   }
 }
