@@ -2,19 +2,24 @@
 const request = require('request')
 
 const bookSearch = (bookName, callback) => {
-    const url = `https://www.googleapis.com/books/v1/volumes?q=${bookName}&orderBy=newest&maxResults=1`
+    const url = `https://www.googleapis.com/books/v1/volumes?a=${bookName}&orderBy=newest&maxResults=1`
 	
 	console.log(url)
 
     request({ url, json: true }, (error, { body }) => {
 		if (error) {
-			console.error(error)
+			callback('Unable to find error', undefined)
 		}
 		console.log(body)
-		console.info(`Title: ${body.items[0].volumeInfo.title}`)
-		
+		// console.info(`Title: ${body.items[0].volumeInfo.title}`)
+		// callback(undefined, 'TestingcallbackContent')
     })
 }
 
 
-bookSearch('Harry')
+bookSearch('Harry', (error, callbackContent) => {
+	if (error) {
+		return console.log(`Error is ${error}`)
+	}
+	console.log(`callbackContent is ${callbackContent}`);
+})
