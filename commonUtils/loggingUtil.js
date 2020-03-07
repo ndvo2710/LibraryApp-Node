@@ -13,4 +13,7 @@ log4js.configure({
 const getLogger = log4js.getLogger;
 const connectLogger = log4js.connectLogger;
 
-module.exports = getLogger;
+module.exports = {
+	getLogger, 
+	connectLogger
+}

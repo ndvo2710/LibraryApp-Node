@@ -1,9 +1,9 @@
-const getLogger = require('../commonUtils/loggingUtil');
-const logger = getLogger('MainApp');
+const logging = require('./commonUtils/loggingUtil');
+const logger = logging.getLogger('MainApp');
 const express = require('express');
 const path = require('path');
 const hbs = require('hbs');
-const bookSearch = require('./server/utils/bookSearch');
+const bookRouter = require('./server/routers/books.js');
 
 logger.info()
 const app = express();
@@ -23,7 +23,7 @@ app.set('views', viewsPath);
 hbs.registerPartials(partialsPath);
 
 // Setup log for app
-app.use(l)
+app.use(logging.connectLogger(logger));
 
 // Setup static directory to serve
 app.use(express.static(publicDirectoryPath));
@@ -42,28 +42,7 @@ app.get('/about', (req, res) => {
     })
 });
 
-app.get('/book', (req, res) => {
-	console.log(req.query);
-	if (!req.query.searchType || ! req.query.searchValue) {
-		return res.send({
-			error: 'You must provide searchType and searchValue'
-		})
-	}
-	bookSearch(req.query.searchType,
-			   req.query.searchValue,
-			   (errorMessage, bookData) => {
-					if(errorMessage) {
-						return res.send({errorMessage})
-					}
-					res.send({
-						book: bookData,
-						bookTitle: bookData.volumeInfo.title,
-						bookId: bookData.id,
-						
-					})
-				}
-	)
-});
+app.use(bookRouter);
 
 app.listen(port, () => {
     console.log('Server is up on port ' + port)
