@@ -15,12 +15,10 @@ const bookSearch = (searchType, searchValue, callback) => {
 		if (error) {
 			callback('Unable to coonect to Google Book Api Service', undefined);
 		} else if (body.error) {
-			callback('Unable to connect to Google Book Api Service', undefined);
+			callback('Unable to connect to Google Book Api Service', body);
 		} else {
 			callback(undefined, body.items[0]);
 		}
-		// console.log(body)
-		// console.info(`Title: ${body.items[0].volumeInfo.title}`)
 		
     })
 };

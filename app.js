@@ -5,7 +5,7 @@ const path = require('path');
 const hbs = require('hbs');
 const bookRouter = require('./server/routers/books.js');
 
-logger.info()
+
 const app = express();
 const port = process.env.PORT || 3000;
 
@@ -22,8 +22,11 @@ app.set('view engine', 'hbs');
 app.set('views', viewsPath);
 hbs.registerPartials(partialsPath);
 
+// body parser json
+app.use(express.json());
+
 // Setup log for app
-app.use(logging.connectLogger(logger));
+app.use(logging.expressLogger);
 
 // Setup static directory to serve
 app.use(express.static(publicDirectoryPath));
