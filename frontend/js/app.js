@@ -1,3 +1,4 @@
+const isbnElement = document.querySelector('#isbn');
 const search = document.querySelector('.search-btn');
 const progressBar = document.querySelector('.progress');
 const bookContent = document.querySelector('.book-content');
@@ -7,12 +8,51 @@ const publisher = document.querySelector('.publisher');
 const catgories = document.querySelector('.catgories');
 const pageCount = document.querySelector('.pageCount');
 const bookSummary = document.querySelector('.book-summary');
+const bookImage = document.querySelector('.book-image');
 
+const updateBookContentUI = (bookData) => {
+		if (bookData.error) {
+			// edge case: ISBN not found. Try with ISBN 0134319036
+			if (!progressBar.classList.contains("hide")) {
+				progressBar.classList.add("hide");
+			}
+			if (!bookContent.classList.contains("hide")) {
+				bookContent.classList.add("hide");
+			}
+			cardTitle.innerText = '';
+			authors.innerHTML = '';
+			publisher.innerText = '';
+			catgories.innerText = '';
+			pageCount.innerText = '';
+			bookSummary.innerHTML = '';
+			bookImage.src = '';
+			const div = document.createElement('div');
+			div.className = 'alert';
+			div.style = 'color:red';
+			div.appendChild(
+				document.createTextNode(bookData.error)
+			);
+			const container = isbnElement.parentElement;
+			container.insertBefore(div, isbnElement.nextSibling);
+		} else {
+			cardTitle.innerText = bookData.title;
+			authors.innerHTML = bookData.authors;
+			publisher.innerText = bookData.publisher;
+			catgories.innerText = bookData.catgories;
+			pageCount.innerText = bookData.pageCount;
+			bookSummary.innerHTML = `<strong><i> ${bookData.description} </i> </strong>`;
+			bookImage.src = bookData.imageLink;
+			console.log(bookData);
+			progressBar.classList.remove("hide");
+			setTimeout(function() {
+				progressBar.classList.add("hide");
+				bookContent.classList.remove("hide");
+			}, 1000);
+		}
+}
 
 search.addEventListener('click', e => {
 	e.preventDefault();
-
-	const isbnElement = document.querySelector('#isbn');
 
 	if (isbnElement.value === '') {
 		const div = document.createElement('div');
@@ -24,27 +64,11 @@ search.addEventListener('click', e => {
 		const container = isbnElement.parentElement;
 		container.insertBefore(div, isbnElement.nextSibling);
 	} else {
-		fetch(`/books?searchType=isbn&searchValue=${isbnElement.value}`).then((response) => {
+		const bookRouteUrl = `/books?searchType=isbn&searchValue=${isbnElement.value}`;
+		console.log(bookRouteUrl);
+		fetch(bookRouteUrl).then((response) => {
 				response.json().then((bookData) => {
-					if (bookData.error) {
-						cardTitle.innerText = bookData.error;
-					} else {
-						cardTitle.innerText = bookData.title;
-						authors.innerHTML = bookData.authors;
-						publisher.innerText = bookData.publisher;
-						catgories.innerText = bookData.catgories;
-						pageCount.innerText = bookData.pageCount;
-						bookSummary.innerHTML = `<strong><i> ${bookData.description} </i> </strong>`;
-						console.log(bookData);
-						
-						console.log(progressBar.classList);
-						progressBar.classList.remove("hide");
-						setTimeout(function() {
-							progressBar.classList.add("hide");
-							bookContent.classList.remove("hide");
-						}, 1000);
-						
-					}
+					updateBookContentUI(bookData);
 				})
 			}
 		)

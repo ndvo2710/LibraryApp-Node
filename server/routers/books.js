@@ -11,9 +11,9 @@ router.get('/books', (req, res) => {
 			error: 'You must provide searchType and searchValue'
 		});
 	}
-	bookSearch(req.query.searchType, req.query.searchValue, (errorMessage, bookData) => {
-		if (errorMessage) {
-			return res.send({ errorMessage });
+	bookSearch(req.query.searchType, req.query.searchValue, (error, bookData) => {
+		if (error) {
+			return res.send({ error });
 		}
 		logger.debug(`bookData : ${JSON.stringify(bookData)}`);
 
@@ -25,7 +25,7 @@ router.get('/books', (req, res) => {
 			publisher: bookData.volumeInfo.publisher,
 			categories: bookData.volumeInfo.categories.join(' , '),
 			pageCount: bookData.volumeInfo.pageCount,
-			imageLink: `https://books.google.com/books/content?id=${bookData.id}&printsec=frontcover&img=1&zoom=10&edge=curl&source=gbs_a
+			imageLink: `https://books.google.com/books/content?id=${bookData.id}&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_a
 pi`
 		});
 	});
