@@ -5,7 +5,7 @@ const bookContent = document.querySelector('.book-content');
 const cardTitle = document.querySelector('.card-title');
 const authors = document.querySelector('.authors');
 const publisher = document.querySelector('.publisher');
-const catgories = document.querySelector('.catgories');
+const categories = document.querySelector('.categories');
 const pageCount = document.querySelector('.pageCount');
 const bookSummary = document.querySelector('.book-summary');
 const bookImage = document.querySelector('.book-image');
@@ -22,7 +22,7 @@ const updateBookContentUI = (bookData) => {
 			cardTitle.innerText = '';
 			authors.innerHTML = '';
 			publisher.innerText = '';
-			catgories.innerText = '';
+			categories.innerText = '';
 			pageCount.innerText = '';
 			bookSummary.innerHTML = '';
 			bookImage.src = '';
@@ -38,8 +38,8 @@ const updateBookContentUI = (bookData) => {
 			cardTitle.innerText = bookData.title;
 			authors.innerHTML = bookData.authors;
 			publisher.innerText = bookData.publisher;
-			catgories.innerText = bookData.catgories;
-			pageCount.innerText = bookData.pageCount;
+			categories.innerText = bookData.categories;
+			pageCount.innerText = `${bookData.pageCount} pages`;
 			bookSummary.innerHTML = `<strong><i> ${bookData.description} </i> </strong>`;
 			bookImage.src = bookData.imageLink;
 			console.log(bookData);

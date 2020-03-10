@@ -26,7 +26,8 @@ router.get('/books', (req, res) => {
 			categories: bookData.volumeInfo.categories.join(' , '),
 			pageCount: bookData.volumeInfo.pageCount,
 			imageLink: `https://books.google.com/books/content?id=${bookData.id}&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_a
-pi`
+pi`,
+			book: bookData
 		});
 	});
 });
