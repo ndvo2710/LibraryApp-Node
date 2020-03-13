@@ -39,7 +39,7 @@ const updateBookContentUI = (bookData) => {
 			authors.innerText = bookData.authors;
 			publisher.innerHTML = `<strong>Publisher:</strong> ${bookData.publisher}`;
 			categories.innerText = bookData.categories;
-			pageCount.innerText = `${bookData.pageCount} pages`;
+			pageCount.innerText = bookData.pageCount;
 			bookSummary.innerHTML = `<strong><i> ${bookData.description} </i> </strong>`;
 			bookImage.src = bookData.imageLink;
 			console.log(bookData);
