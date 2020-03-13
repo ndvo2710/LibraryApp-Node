@@ -4,7 +4,7 @@ const router = new express.Router();
 const logging = require('../../commonUtils/loggingUtil');
 const logger = logging.getLogger(__filename);
 
-router.get('/books', (req, res) => {
+router.get('/goobooks', (req, res) => {
 	logger.debug('<------ Book Router');
 	if (!req.query.searchType || !req.query.searchValue) {
 		return res.send({
@@ -25,7 +25,7 @@ router.get('/books', (req, res) => {
 			publisher: bookData.volumeInfo.publisher,
 			categories: bookData.volumeInfo.categories.join(' , '),
 			pageCount: bookData.volumeInfo.pageCount,
-			imageLink: `https://books.google.com/books/content?id=${bookData.id}&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_a
+			imageLink: `https://books.google.com/books/content?id=${bookData.id}&printsec=frontcover&img=1&zoom=10&edge=curl&source=gbs_a
 pi`,
 			book: bookData
 		});

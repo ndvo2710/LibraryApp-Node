@@ -36,8 +36,8 @@ const updateBookContentUI = (bookData) => {
 			container.insertBefore(div, isbnElement.nextSibling);
 		} else {
 			cardTitle.innerText = bookData.title;
-			authors.innerHTML = bookData.authors;
-			publisher.innerText = bookData.publisher;
+			authors.innerText = bookData.authors;
+			publisher.innerHTML = `<strong>Publisher:</strong> ${bookData.publisher}`;
 			categories.innerText = bookData.categories;
 			pageCount.innerText = `${bookData.pageCount} pages`;
 			bookSummary.innerHTML = `<strong><i> ${bookData.description} </i> </strong>`;
@@ -64,7 +64,7 @@ search.addEventListener('click', e => {
 		const container = isbnElement.parentElement;
 		container.insertBefore(div, isbnElement.nextSibling);
 	} else {
-		const bookRouteUrl = `/books?searchType=isbn&searchValue=${isbnElement.value}`;
+		const bookRouteUrl = `/goobooks?searchType=isbn&searchValue=${isbnElement.value}`;
 		console.log(bookRouteUrl);
 		fetch(bookRouteUrl).then((response) => {
 				response.json().then((bookData) => {

@@ -4,7 +4,7 @@ const express = require('express');
 require('./server/db/mongoose');
 const path = require('path');
 const hbs = require('hbs');
-const bookRouter = require('./server/routers/books.js');
+const bookRouter = require('./server/routers/goobooks.js');
 
 
 const app = express();
