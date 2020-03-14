@@ -1,0 +1,17 @@
+const MongoStore = require('../server/store/MongoStore');
+
+const testData = {
+	id: 'gWW4SkJjM08C',
+	title: 'The Black Swan: The Impact of the Highly Improbable',
+	authors: 'Nassim Nicholas Taleb',
+	publisher: 'Random House',
+	categories: 'Business & Economics',
+	pageCount: 480,
+	imageLink:
+		'https://books.google.com/books/content?id=gWW4SkJjM08C&printsec=frontcover&img=1&zoom=10&edge=curl&source=gbs_api',
+	description:
+		'The Black Swan is a standalone book in Nassim Nicholas Taleb’s landmark Incerto series, an investigation of opacity, luck, uncertainty, probability, human error, risk, and decision-making in a world we don’t understand. The other books in the series are Fooled by Randomness, Antifragile, and The Bed of Procrustes. A black swan is a highly improbable event with three principal characteristics: It is unpredictable; it carries a massive impact; and, after the fact, we concoct an explanation that makes it appear less random, and more predictable, than it was. The astonishing success of Google was a black swan; so was 9/11. For Nassim Nicholas Taleb, black swans underlie almost everything about our world, from the rise of religions to events in our own personal lives. Why do we not acknowledge the phenomenon of black swans until after they occur? Part of the answer, according to Taleb, is that humans are hardwired to learn specifics when they should be focused on generalities. We concentrate on things we already know and time and time again fail to take into consideration what we don’t know. We are, therefore, unable to truly estimate opportunities, too vulnerable to the impulse to simplify, narrate, and categorize, and not open enough to rewarding those who can imagine the “impossible.” For years, Taleb has studied how we fool ourselves into thinking we know more than we actually do. We restrict our thinking to the irrelevant and inconsequential, while large events continue to surprise us and shape our world. In this revelatory book, Taleb explains everything we know about what we don’t know, and this second edition features a new philosophical and empirical essay, “On Robustness and Fragility,” which offers tools to navigate and exploit a Black Swan world. Elegant, startling, and universal in its applications, The Black Swan will change the way you look at the world. Taleb is a vastly entertaining writer, with wit, irreverence, and unusual stories to tell. He has a polymathic command of subjects ranging from cognitive science to business to probability theory. The Black Swan is a landmark book—itself a black swan. Praise for Nassim Nicholas Taleb “The most prophetic voice of all.”—GQ Praise for The Black Swan “[A book] that altered modern thinking.”—The Times (London) “A masterpiece.”—Chris Anderson, editor in chief of Wired, author of The Long Tail “Idiosyncratically brilliant.”—Niall Ferguson, Los Angeles Times “The Black Swan changed my view of how the world works.”—Daniel Kahneman, Nobel laureate “[Taleb writes] in a style that owes as much to Stephen Colbert as it does to Michel de Montaigne. . . . We eagerly romp with him through the follies of confirmation bias [and] narrative fallacy.”—The Wall Street Journal “Hugely enjoyable—compelling . . . easy to dip into.”—Financial Times “Engaging . . . The Black Swan has appealing cheek and admirable ambition.”—The New York Times Book Review From the Hardcover edition.'
+};
+
+const mongoStore = new MongoStore();
+mongoStore.saveBook(testData);

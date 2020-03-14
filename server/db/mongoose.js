@@ -1,5 +1,7 @@
 const logging = require('../../commonUtils/loggingUtil');
 const logger = logging.getLogger('mongoose');
+const dotenv = require('dotenv');
+dotenv.config();
 const mongoose = require('mongoose');
 
 const MongoDbAtlasPW = process.env.MONGODB_PASSWORD;
@@ -13,6 +15,6 @@ mongoose.connect(MongoDbUrl, {
 }).then(() => {
 	logger.info('Connected to MongoDB Atlas (Cloud DB)!');
 }).catch(err => {
-	logger.error(`ERROR: ${err.message}`);
+	logger.error(`ERROR: ${err}`);
 });
 

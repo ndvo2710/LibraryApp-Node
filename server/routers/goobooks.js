@@ -20,14 +20,13 @@ router.get('/goobooks', (req, res) => {
 		res.send({
 			id: bookData.id,
 			title: `${bookData.volumeInfo.title}: ${bookData.volumeInfo.subtitle}`,
-			description: bookData.volumeInfo.description,
 			authors: bookData.volumeInfo.authors.join(' , '),
 			publisher: bookData.volumeInfo.publisher,
 			categories: bookData.volumeInfo.categories.join(' , '),
 			pageCount: bookData.volumeInfo.pageCount,
-			imageLink: `https://books.google.com/books/content?id=${bookData.id}&printsec=frontcover&img=1&zoom=10&edge=curl&source=gbs_a
-pi`,
-			book: bookData
+			imageLink: `https://books.google.com/books/content?id=${bookData.id}&printsec=frontcover&img=1&zoom=10&edge=curl&source=gbs_api`,
+			description: bookData.volumeInfo.description,
+			// book: bookData
 		});
 	});
 });
