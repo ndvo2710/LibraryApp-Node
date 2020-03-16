@@ -1,12 +1,12 @@
 require('../db/mongoose');
 const mongoose = require('mongoose');
-const bookSchema = require('../models/book.js');
+const bookModel = require('../models/book.js');
 const logging = require('../../commonUtils/loggingUtil.js');
 const logger = logging.getLogger('MongoStore');
 
 class MongoStore {
 	constructor() {
-		this.Book = mongoose.model('Book', bookSchema);
+		this.Book = bookModel;
 	}
 	
 	async saveBook(bookDict) {

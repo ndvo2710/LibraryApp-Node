@@ -68,6 +68,7 @@ search.addEventListener('click', e => {
 		console.log(bookRouteUrl);
 		fetch(bookRouteUrl).then((response) => {
 				response.json().then((bookData) => {
+					console.log(bookData);
 					updateBookContentUI(bookData);
 				})
 			}
