@@ -1,11 +1,12 @@
-require('../db/mongoose');
+const mongooseConnect = require('../db/mongoose');
 const mongoose = require('mongoose');
-const bookModel = require('../models/book.js');
+const bookModel = require('../models/book');
 const logging = require('../../commonUtils/loggingUtil.js');
 const logger = logging.getLogger('MongoStore');
 
 class MongoStore {
 	constructor() {
+		mongooseConnect();
 		this.Book = bookModel;
 	}
 	
@@ -19,6 +20,17 @@ class MongoStore {
 			logger.debug(e);
 			logger.debug(bookDict);
 		}
+	}
+	
+	async getAllBook() {
+		try {
+			const books = await this.Book.find({});
+			return books;
+		} catch (e) {
+			logger.info('Failed to run getAllBook');
+			logger.debug(e);
+		}
+		
 	}
 }
 

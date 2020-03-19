@@ -7,14 +7,21 @@ const mongoose = require('mongoose');
 const MongoDbAtlasPW = process.env.MONGODB_PASSWORD;
 const MongoDbUrl = `mongodb+srv://devndvo:${MongoDbAtlasPW}@cluster0-1inco.mongodb.net/test?retryWrites=true&w=majority`;
 
-mongoose.connect(MongoDbUrl, {
-	useUnifiedTopology: true,
-    useNewUrlParser: true,
-    useCreateIndex: true,
-    useFindAndModify: false
-}).then(() => {
-	logger.info('Connected to MongoDB Atlas (Cloud DB)!');
-}).catch(err => {
-	logger.error(`ERROR: ${err}`);
-});
+const mongooseConnect = () => {
+	try {
+		mongoose.connect(MongoDbUrl, {
+				useUnifiedTopology: true,
+				useNewUrlParser: true,
+				useCreateIndex: true,
+				useFindAndModify: false
+				});
+		logger.info('Already connected to Mongo DB Atlas');
+	}
+	catch(e) {
+		logger.info('Failed to establish connection to Mongo DB Atlas');
+		logger.debug(e);
+	}
+}
+
+module.exports = mongooseConnect;
 
