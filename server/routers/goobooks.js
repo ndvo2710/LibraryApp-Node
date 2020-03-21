@@ -5,7 +5,7 @@ const logging = require('../../commonUtils/loggingUtil');
 const logger = logging.getLogger(__filename);
 
 router.get('/goobooks', (req, res) => {
-	logger.debug('<------ Book Router');
+	logger.info('<------ GooBook Router');
 	if (!req.query.searchType || !req.query.searchValue) {
 		return res.send({
 			error: 'You must provide searchType and searchValue'
