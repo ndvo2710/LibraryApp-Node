@@ -1,0 +1,579 @@
+{
+  _id: 5e6db79bcd9eda07c44413cc,
+  title: 'Node.js, MongoDB and AngularJS Web Development: undefined',
+  authors: 'Brad Dayley',
+  publisher: 'Pearson Education',
+  categories: 'Computers',
+  pageCount: 647,
+  imageLink: 'https://books.google.com/books/content?id=inzYAwAAQBAJ&printsec=frontcover&img=1&zoom=10&edge=curl&source=gbs_api',
+  description: 'Provides information for building dynamic, high performance websites ' +
+    'and Web applications completely in JavaScript, from server to client, ' +
+    'using the Node.js, MongoDB, and AngularJS Web development ' +
+    'technologies.',
+  createdAt: 2020-03-15T05:05:31.260Z,
+  updatedAt: 2020-03-15T05:05:31.260Z,
+  __v: 0
+},{
+  _id: 5e6f036fadf2310c5e544eef,
+  title: 'Web Development with MongoDB and NodeJS: undefined',
+  authors: "Mithun Satheesh , Bruno Joseph D'mello , Jason Krol",
+  publisher: 'Packt Publishing Ltd',
+  categories: 'Computers',
+  pageCount: 300,
+  imageLink: 'https://books.google.com/books/content?id=4QKACwAAQBAJ&printsec=frontcover&img=1&zoom=10&edge=curl&source=gbs_api',
+  description: 'Build an interactive and full-featured web application from scratch using ' +
+    'Node.js and MongoDB About This Book Configure your development ' +
+    'environment to use Node.js and MongoDB Use Node.js to connect to a ' +
+    'MongoDB database and perform data manipulations A practical guide with ' +
+    'clear instructions to design and develop a complete web application from ' +
+    'start to finish Who This Book IsIntroduction To Algorithms For This book is designed for JavaScript ' +
+    'developers of any skill level that want to get up and running using ' +
+    'Node.js and MongoDB to build full-featured web applications. A basic ' +
+    'understanding of JavaScript and HTML is the only requirement for this ' +
+    'book. What You Will Learn Configure your development environment to use ' +
+    'Node.js and MongoDB Write and configure a web server using Node.js ' +
+    'powered by the Express.js framework Build dynamic HTML pages using the ' +
+    'Handlebars template engine Persist application data using MongoDB and ' +
+    'Mongoose ODM Test your code using automated testing tools such as the ' +
+    'Mocha framework Deploy the development environment to the cloud using ' +
+    'services such as Heroku, Amazon Web Services, and Microsoft Azure Explore ' +
+    'Single-Page application frameworks to take your web applications to the ' +
+    'next level In Detail Node.js and MongoDB are quickly becoming one of the ' +
+    "most popular tech stacks for the web. Powered by Google's V8 engine, " +
+    'Node.js caters to easily building fast, scalable network applications ' +
+    'while MongoDB is the perfect fit as a scalable, high-performance, open ' +
+    'source NoSQL database solution. Using these two technologies together, ' +
+    'web applications can be built quickly and easily and deployed to the ' +
+    'cloud with very little difficulty. The book will begin by introducing you ' +
+    'to the groundwork needed to set up the development environment. Here, you ' +
+    'will quickly run through the steps necessary to get the main application ' +
+    'server up and running. Then you will see how to use Node.js to connect to ' +
+    'a MongoDB database and perform data manipulations. From here on, the book ' +
+    'will take you through integration with third-party tools for interaction ' +
+    'with web apps. It then moves on to show you how to use controllers and ' +
+    'view models to generate reusable code that will reduce development time. ' +
+    'Toward the end of the book, we will cover tests to properly execute the ' +
+    'code and some popular frameworks for developing web applications. By the ' +
+    'end of the book, you will have a running web application developed with ' +
+    "MongoDB and Node.js along with it's popular frameworks. Style and " +
+    'approach An easy guide to Node.js and MongoDB, which will quickly ' +
+    'introduce you to the relevant concepts by taking you through the ' +
+    'different steps involved in building a full-fledged web application.',
+  createdAt: 2020-03-16T04:41:19.730Z,
+  updatedAt: 2020-03-16T04:41:19.730Z,
+  __v: 0
+},{
+  _id: 5e6f036fadf2310c5e544ef0,
+  title: 'Learning Python: Powerful Object-Oriented Programming',
+  authors: 'Mark Lutz',
+  publisher: `"O'Reilly Media, Inc."`,
+  categories: 'Computers',
+  pageCount: 1600,
+  imageLink: 'https://books.google.com/books/content?id=4pgQfXQvekcC&printsec=frontcover&img=1&zoom=10&edge=curl&source=gbs_api',
+  description: 'Get a comprehensive, in-depth introduction to the core Python language ' +
+    'with this hands-on book. Based on author Mark Lutz’s popular training ' +
+    'course, this updated fifth edition will help you quickly write ' +
+    'efficient, high-quality code with Python. It’s an ideal way to begin, ' +
+    'whether you’re new to programming or a professional developer versed in ' +
+    'other languages. Complete with quizzes, exercises, and helpful ' +
+    'illustrations, this easy-to-follow, self-paced tutorial gets you started ' +
+    'with both Python 2.7 and 3.3— the latest releases in the 3.X and 2.X ' +
+    'lines—plus all other releases in common use today. You’ll also learn ' +
+    'some advanced language features that recently have become more common in ' +
+    'Python code. Explore Python’s major built-in object types such as ' +
+    'numbers, lists, and dictionaries Create and process objects with Python ' +
+    'statements, and learn Python’s general syntax model Use functions to ' +
+    'avoid code redundancy and package code for reuse Organize statements, ' +
+    'functions, and other tools into larger components with modules Dive into ' +
+    'classes: Python’s object-oriented programming tool for structuring code ' +
+    'Write large programs with Python’s exception-handling model and ' +
+    'development tools Learn advanced Python tools, including decorators, ' +
+    'descriptors, metaclasses, and Unicode processing',
+  createdAt: 2020-03-16T04:41:19.730Z,
+  updatedAt: 2020-03-16T04:41:19.730Z,
+  __v: 0
+},{
+  _id: 5e6f036fadf2310c5e544ef1,
+  title: 'Super Pumped: The Battle for Uber',
+  authors: 'Mike Isaac',
+  publisher: 'W. W. Norton',
+  categories: 'Ridesharing',
+  pageCount: 387,
+  imageLink: 'https://books.google.com/books/content?id=5KGywwEACAAJ&printsec=frontcover&img=1&zoom=10&edge=curl&source=gbs_api',
+  description: "Isaac delivers a gripping account of Uber's rapid rise, its " +
+    "pitched battles with taxi unions and drivers, the company's " +
+    'toxic internal culture, and the bare-knuckle tactics it ' +
+    'devised to overcome obstacles in its quest for dominance.',
+  createdAt: 2020-03-16T04:41:19.730Z,
+  updatedAt: 2020-03-16T04:41:19.730Z,
+  __v: 0
+},{
+  _id: 5e6f036fadf2310c5e544ef3,
+  title: 'Python Data Science Handbook: Essential Tools for Working with Data',
+  authors: 'Jake VanderPlas',
+  publisher: `"O'Reilly Media, Inc."`,
+  categories: 'Computers',
+  pageCount: 548,
+  imageLink: 'https://books.google.com/books/content?id=6omNDQAAQBAJ&printsec=frontcover&img=1&zoom=10&edge=curl&source=gbs_api',
+  description: 'For many researchers, Python is a first-class tool mainly because of its ' +
+    'libraries for storing, manipulating, and gaining insight from data. ' +
+    'Several resources exist for individual pieces of this data science stack, ' +
+    'but only with the Python Data Science Handbook do you get them ' +
+    'all—IPython, NumPy, Pandas, Matplotlib, Scikit-Learn, and other related ' +
+    'tools. Working scientists and data crunchers familiar with reading and ' +
+    'writing Python code will find this comprehensive desk reference ideal for ' +
+    'tackling day-to-day issues: manipulating, transforming, and cleaning ' +
+    'data; visualizing different types of data; and using data to build ' +
+    'statistical or machine learning models. Quite simply, this is the ' +
+    'must-have reference for scientific computing in Python. With this ' +
+    'handbook, you’ll learn how to use: IPython and Jupyter: provide ' +
+    'computational environments for data scientists using Python NumPy: ' +
+    'includes the ndarray for efficient storage and manipulation of dense data ' +
+    'arrays in Python Pandas: features the DataFrame for efficient storage and ' +
+    'manipulation of labeled/columnar data in Python Matplotlib: includes ' +
+    'capabilities for a flexible range of data visualizations in Python ' +
+    'Scikit-Learn: for efficient and clean Python implementations of the most ' +
+    'important and established machine learning algorithms',
+  createdAt: 2020-03-16T04:41:19.731Z,
+  updatedAt: 2020-03-16T04:41:19.731Z,
+  __v: 0
+},{
+  _id: 5e6f036fadf2310c5e544ef4,
+  title: 'Automate the Boring Stuff with Python: ' +
+    'Practical Programming for Total ' +
+    'Beginners',
+  authors: 'Al Sweigart',
+  publisher: 'No Starch Press',
+  categories: 'Computers',
+  pageCount: 504,
+  imageLink: 'https://books.google.com/books/content?id=8AcvDwAAQBAJ&printsec=frontcover&img=1&zoom=10&edge=curl&source=gbs_api',
+  description: 'If you’ve ever spent hours renaming files or updating hundreds of ' +
+    'spreadsheet cells, you know how tedious tasks like these can be. But what ' +
+    'if you could have your computer do them for you? In Automate the Boring ' +
+    'Stuff with Python, you’ll learn how to use Python to write programs that ' +
+    'do in minutes what would take you hours to do by hand—no prior programming ' +
+    'experience required. Once you’ve mastered the basics of programming, ' +
+    'you’ll create Python programs that effortlessly perform useful and ' +
+    'impressive feats of automation to: –Search for text in a file or across ' +
+    'multiple files –Create, update, move, and rename files and folders –Search ' +
+    'the Web and download online content –Update and format data in Excel ' +
+    'spreadsheets of any size –Split, merge, watermark, and encrypt PDFs –Send ' +
+    'reminder emails and text notifications –Fill out online forms Step-by-step ' +
+    'instructions walk you through each program, and practice projects at the ' +
+    'end of each chapter challenge you to improve those programs and use your ' +
+    'newfound skills to automate similar tasks. Don’t spend your time doing ' +
+    'work a well-trained monkey could do. Even if you’ve never written a line ' +
+    'of code, you can make your computer do the grunt work. Learn how in ' +
+    'Automate the Boring Stuff with Python. Note: The programs in this book are ' +
+    'written to run on Python 3.',
+  createdAt: 2020-03-16T04:41:19.731Z,
+  updatedAt: 2020-03-16T04:41:19.731Z,
+  __v: 0
+},{
+  _id: 5e6f036fadf2310c5e544ef5,
+  title: 'Java Concurrency in Practice: undefined',
+  authors: 'Tim Peierls , Brian Goetz , Joshua Bloch , ' +
+    'Joseph Bowbeer , Doug Lea , David Holmes',
+  publisher: 'Pearson Education',
+  categories: 'Computers',
+  pageCount: 432,
+  imageLink: 'https://books.google.com/books/content?id=EK43StEVfJIC&printsec=frontcover&img=1&zoom=10&edge=curl&source=gbs_api',
+  description: 'Threads are a fundamental part of the Java platform. As multicore ' +
+    'processors become the norm, using concurrency effectively becomes ' +
+    'essential for building high-performance applications. Java SE 5 and 6 are ' +
+    'a huge step forward for the development of concurrent applications, with ' +
+    'improvements to the Java Virtual Machine to support high-performance, ' +
+    'highly scalable concurrent classes and a rich set of new concurrency ' +
+    'building blocks. In Java Concurrency in Practice , the creators of these ' +
+    'new facilities explain not only how they work and how to use them, but ' +
+    'also the motivation and design patterns behind them. However, developing, ' +
+    'testing, and debugging multithreaded programs can still be very ' +
+    'difficult; it is all too easy to create concurrent programs that appear ' +
+    'to work, but fail when it matters most: in production, under heavy load. ' +
+    'Java Concurrency in Practice arms readers with both the theoretical ' +
+    'underpinnings and concrete techniques for building reliable, scalable, ' +
+    'maintainable concurrent applications. Rather than simply offering an ' +
+    'inventory of concurrency APIs and mechanisms, it provides design rules, ' +
+    'patterns, and mental models that make it easier to build concurrent ' +
+    'programs that are both correct and performant. This book covers: Basic ' +
+    'concepts of concurrency and thread safety Techniques for building and ' +
+    'composing thread-safe classes Using the concurrency building blocks in ' +
+    "java.util.concurrent Performance optimization dos and don'ts Testing " +
+    'concurrent programs Advanced topics such as atomic variables, nonblocking ' +
+    'algorithms, and the Java Memory Model',
+  createdAt: 2020-03-16T04:41:19.731Z,
+  updatedAt: 2020-03-16T04:41:19.731Z,
+  __v: 0
+},{
+  _id: 5e6f036fadf2310c5e544ef6,
+  title: 'Controversial Essays: undefined',
+  authors: 'Thomas Sowell',
+  publisher: 'Hoover Press',
+  categories: 'Political Science',
+  pageCount: 322,
+  imageLink: 'https://books.google.com/books/content?id=EQCpAAAAQBAJ&printsec=frontcover&img=1&zoom=10&edge=curl&source=gbs_api',
+  description: "One of conservatism's most articulate voices dissects today's most " +
+    'important economic, racial, political, education, legal, and social ' +
+    'issues, sharing his entertaining and thought-provoking insights on a ' +
+    'wide range of contentious subjects. --"This book contains an ' +
+    'abundance of wisdom on a large number of economic issues." --Mises ' +
+    'Review',
+  createdAt: 2020-03-16T04:41:19.731Z,
+  updatedAt: 2020-03-16T04:41:19.731Z,
+  __v: 0
+},{
+  _id: 5e6f036fadf2310c5e544ef7,
+  title: "Google's PageRank and Beyond: The Science of Search Engine Rankings",
+  authors: 'Amy N. Langville , Carl D. Meyer',
+  publisher: 'Princeton University Press',
+  categories: 'Mathematics',
+  pageCount: 240,
+  imageLink: 'https://books.google.com/books/content?id=KsHTl_2Pfl8C&printsec=frontcover&img=1&zoom=10&edge=curl&source=gbs_api',
+  description: "Why doesn't your home page appear on the first page of search results, " +
+    'even when you query your own name? How do other web pages always appear at ' +
+    'the top? What creates these powerful rankings? And how? The first book ' +
+    "ever about the science of web page rankings, Google's PageRank and Beyond " +
+    'supplies the answers to these and other questions and more. The book ' +
+    'serves two very different audiences: the curious science reader and the ' +
+    'technical computational reader. The chapters build in mathematical ' +
+    'sophistication, so that the first five are accessible to the general ' +
+    'academic reader. While other chapters are much more mathematical in ' +
+    'nature, each one contains something for both audiences. For example, the ' +
+    'authors include entertaining asides such as how search engines make money ' +
+    'and how the Great Firewall of China influences research. The book includes ' +
+    'an extensive background chapter designed to help readers learn more about ' +
+    'the mathematics of search engines, and it contains several MATLAB codes ' +
+    'and links to sample web data sets. The philosophy throughout is to ' +
+    'encourage readers to experiment with the ideas and algorithms in the text. ' +
+    'Any business seriously interested in improving its rankings in the major ' +
+    'search engines can benefit from the clear examples, sample code, and list ' +
+    'of resources provided. Many illustrative examples and entertaining asides ' +
+    'MATLAB code Accessible and informal style Complete and self-contained ' +
+    'section for mathematics review',
+  createdAt: 2020-03-16T04:41:19.731Z,
+  updatedAt: 2020-03-16T04:41:19.731Z,
+  __v: 0
+},{
+  _id: 5e6f036fadf2310c5e544ef8,
+  title: 'Head First Design Patterns: undefined',
+  authors: 'Eric Freeman , Elisabeth Robson , Bert Bates , Kathy Sierra',
+  publisher: `"O'Reilly Media, Inc."`,
+  categories: 'Computers',
+  pageCount: 676,
+  imageLink: 'https://books.google.com/books/content?id=NbCNAQAAQBAJ&printsec=frontcover&img=1&zoom=10&edge=curl&source=gbs_api',
+  description: 'Using research in neurobiology, cognitive science and ' +
+    'learning theory, this text loads patterns into your brain in ' +
+    'a way that lets you put them to work immediately, makes you ' +
+    'better at solving software design problems, and improves your ' +
+    'ability to speak the language of patterns with others on your ' +
+    'team.',
+  createdAt: 2020-03-16T04:41:19.731Z,
+  updatedAt: 2020-03-16T04:41:19.731Z,
+  __v: 0
+},{
+  _id: 5e6f036fadf2310c5e544ef9,
+  title: 'Programming in Python 3: A Complete Introduction to the Python Language',
+  authors: 'Mark Summerfield',
+  publisher: 'Pearson Education',
+  categories: 'Computers',
+  pageCount: 552,
+  imageLink: 'https://books.google.com/books/content?id=Oj-e_CoI2tQC&printsec=frontcover&img=1&zoom=10&edge=curl&source=gbs_api',
+  description: 'Python 3 is the best version of the language yet: It is more powerful, ' +
+    'convenient, consistent, and expressive than ever before. Now, leading ' +
+    'Python programmer Mark Summerfield demonstrates how to write code that ' +
+    'takes full advantage of Python 3’s features and idioms. The first book ' +
+    'written from a completely “Python 3” viewpoint, Programming in Python 3 ' +
+    'brings together all the knowledge you need to write any program, use any ' +
+    'standard or third-party Python 3 library, and create new library modules ' +
+    'of your own. Summerfield draws on his many years of Python experience to ' +
+    'share deep insights into Python 3 development you won’t find anywhere ' +
+    'else. He begins by illuminating Python’s “beautiful heart”: the eight key ' +
+    'elements of Python you need to write robust, high-performance programs. ' +
+    'Building on these core elements, he introduces new topics designed to ' +
+    'strengthen your practical expertise—one concept and hands-on example at a ' +
+    'time. This book’s coverage includes Developing in Python using procedural, ' +
+    'object-oriented, and functional programming paradigms Creating custom ' +
+    'packages and modules Writing and reading binary, text, and XML files, ' +
+    'including optional compression, random access, and text and XML parsing ' +
+    'Leveraging advanced data types, collections, control structures, and ' +
+    'functions Spreading program workloads across multiple processes and ' +
+    'threads Programming SQL databases and key-value DBM files Utilizing ' +
+    'Python’s regular expression mini-language and module Building usable, ' +
+    'efficient, GUI-based applications Advanced programming techniques, ' +
+    'including generators, function and class decorators, context managers, ' +
+    'descriptors, abstract base classes, metaclasses, and more Programming in ' +
+    'Python 3 serves as both tutorial and language reference, and it is ' +
+    'accompanied by extensive downloadable example code—all of it tested with ' +
+    'the final version of Python 3 on Windows, Linux, and Mac OS X.',
+  createdAt: 2020-03-16T04:41:19.731Z,
+  updatedAt: 2020-03-16T04:41:19.731Z,
+  __v: 0
+},{
+  _id: 5e6f036fadf2310c5e544efa,
+  title: 'Learn React Hooks: Build and refactor ' +
+    'modern React.js applications using ' +
+    'Hooks',
+  authors: 'Daniel Bugl',
+  publisher: 'Packt Publishing Ltd',
+  categories: 'Computers',
+  pageCount: 426,
+  imageLink: 'https://books.google.com/books/content?id=Tkm4DwAAQBAJ&printsec=frontcover&img=1&zoom=10&edge=curl&source=gbs_api',
+  description: 'Create large-scale web applications with code that is extensible and easy ' +
+    'to understand using React Hooks Key Features Explore effective strategies ' +
+    'for migrating your state management from Redux and MobX to React Hooks ' +
+    'Integrate Hooks with React features such as Context and Suspense to add ' +
+    'advanced functionality to your web apps Create complex applications by ' +
+    'combining multiple hooks Book Description React Hooks revolutionize how ' +
+    'you manage state and effects in your web applications. They enable you to ' +
+    'build simple and concise React.js applications, along with helping you ' +
+    'avoid using wrapper components in your applications, making it easy to ' +
+    'refactor code. This React book starts by introducing you to React Hooks. ' +
+    'You will then get to grips with building a complex UI in React while ' +
+    'keeping the code simple and extensible. Next, you will quickly move on to ' +
+    'building your first applications with React Hooks. In the next few ' +
+    'chapters, the book delves into various Hooks, including the State and ' +
+    'Effect Hooks. After covering State Hooks and understanding how to use ' +
+    'them, you will focus on the capabilities of Effect Hooks for adding ' +
+    'advanced functionality to React apps. You will later explore the Suspense ' +
+    'and Context APIs and how they can be used with Hooks. Toward the ' +
+    'concluding chapters, you will learn how to integrate Redux and MobX with ' +
+    'React Hooks. Finally, the book will help you develop the skill of ' +
+    'migrating your existing React class components, and Redux and MobX web ' +
+    'applications to Hooks. By the end of this book, you will be well-versed in ' +
+    'building your own custom Hooks and effectively refactoring your React ' +
+    'applications. What you will learn Understand the fundamentals of React ' +
+    'Hooks and how they modernize state management in React apps Build your own ' +
+    'custom Hooks and learn how to test them Use community Hooks for ' +
+    'implementing responsive design and more Learn the limitations of Hooks and ' +
+    'what you should and shouldn’t use them for Get to grips with implementing ' +
+    'React context using Hooks Refactor your React-based web application, ' +
+    'replacing existing React class components with Hooks Use state management ' +
+    'solutions such as Redux and MobX with React Hooks Who this book is for ' +
+    'This book is for React developers who want to learn how to build ' +
+    'applications with Hooks. Developers who are looking to migrate to React ' +
+    'for its advanced feature set and capabilities will also find the book ' +
+    'useful.',
+  createdAt: 2020-03-16T04:41:19.732Z,
+  updatedAt: 2020-03-16T04:41:19.732Z,
+  __v: 0
+},{
+  _id: 5e6f036fadf2310c5e544efb,
+  title: 'The Housing Boom and Bust: Revised Edition',
+  authors: 'Thomas Sowell',
+  publisher: 'Basic Books',
+  categories: 'Business & Economics',
+  pageCount: 256,
+  imageLink: 'https://books.google.com/books/content?id=_-WhYECJFpMC&printsec=frontcover&img=1&zoom=10&edge=curl&source=gbs_api',
+  description: 'Scary headlines and scarier statistics tell the story of a financial ' +
+    'crisis on a scale not seen in decades—certainly not within the ' +
+    'lifetime of most Americans. Moreover, this is a worldwide financial ' +
+    'crisis. Financial institutions on both sides of the Atlantic have ' +
+    'either collapsed or have been saved from collapse by government ' +
+    'bailouts, as a result of buying securities based on American housing ' +
+    'values that eroded or evaporated. Now completely revised in ' +
+    'paperback, The Housing Boom and Bust is designed to unravel the ' +
+    'tangled threads of that story. It also attempts to determine whether ' +
+    'what is being done to deal with the problem is more likely to make ' +
+    'things better or worse.',
+  createdAt: 2020-03-16T04:41:19.732Z,
+  updatedAt: 2020-03-16T04:41:19.732Z,
+  __v: 0
+},{
+  _id: 5e6f036fadf2310c5e544efc,
+  title: 'React: Up & Running: Building Web Applications',
+  authors: 'Stoyan Stefanov',
+  publisher: `"O'Reilly Media, Inc."`,
+  categories: 'Computers',
+  pageCount: 222,
+  imageLink: 'https://books.google.com/books/content?id=a_asDAAAQBAJ&printsec=frontcover&img=1&zoom=10&edge=curl&source=gbs_api',
+  description: 'Hit the ground running with React, the open-source technology from ' +
+    'Facebook for building rich web applications fast. With this practical ' +
+    'guide, Yahoo! web developer Stoyan Stefanov teaches you how to build ' +
+    'components—React’s basic building blocks—and organize them into ' +
+    'maintainable, large-scale apps. If you’re familiar with basic JavaScript ' +
+    'syntax, you’re ready to get started. Once you understand how React ' +
+    'works, you’ll build a complete custom Whinepad app that helps users rate ' +
+    'wines and keep notes. You’ll quickly learn why some developers consider ' +
+    'React the key to the web app development puzzle. Set up React and write ' +
+    'your first "Hello world" web app Create and use custom React components ' +
+    'alongside generic DOM components Build a data table component that lets ' +
+    'you edit, sort, search, and export its contents Use the JSX syntax ' +
+    'extension as an alternative to function calls Set up a lean, low-level ' +
+    'build process that helps you focus on React Build a complete custom app ' +
+    'that lets you store data on the client Use ESLint, Flow, and Jest tools ' +
+    'to check and test your code as your app evolves Manage communication ' +
+    'between components with Flux',
+  createdAt: 2020-03-16T04:41:19.732Z,
+  updatedAt: 2020-03-16T04:41:19.732Z,
+  __v: 0
+},{
+  _id: 5e6f036fadf2310c5e544efd,
+  title: 'A Personal Odyssey: undefined',
+  authors: 'Thomas Sowell',
+  publisher: 'Simon and Schuster',
+  categories: 'Biography & Autobiography',
+  pageCount: 320,
+  imageLink: 'https://books.google.com/books/content?id=jADMwD6NgX0C&printsec=frontcover&img=1&zoom=10&edge=curl&source=gbs_api',
+  description: "This is the gritty story of one man's lifelong education in the school " +
+    'of hard knocks, as his journey took him from Harlem to the Marines, the ' +
+    'Ivy League, and a career as a controversial writer, teacher, and ' +
+    'economist in government and private industry. It is also the story of ' +
+    'the dramatically changing times in which this personal odyssey took ' +
+    'place. The vignettes of the people and places that made an impression on ' +
+    'Thomas Sowell at various stages of his life range from the poor and the ' +
+    'powerless to the mighty and the wealthy, from a home for homeless boys ' +
+    'to the White House, as well as ranging across the United States and ' +
+    "around the world. It also includes Sowell's startling discovery of his " +
+    'own origins during his teenage years. If the child is father to the man, ' +
+    'this memoir shows the characteristics that have become familiar in the ' +
+    'public figure known as Thomas Sowell already present in an obscure ' +
+    'little boy born in poverty in the Jim Crow South during the Great ' +
+    'Depression and growing up in Harlem. His marching to his own drummer, ' +
+    'his disregard of what others say or think, even his battles with editors ' +
+    'who attempt to change what he has written, are all there in childhood. ' +
+    'More than a story of the life of Sowell himself, this is also a story of ' +
+    'the people who gave him their help, their support, and their loyalty, as ' +
+    'well as those who demonized him and knifed him in the back. It is a ' +
+    'story not just of one life, but of life in general, with all its ' +
+    'exhilaration and pain.',
+  createdAt: 2020-03-16T04:41:19.732Z,
+  updatedAt: 2020-03-16T04:41:19.732Z,
+  __v: 0
+},{
+  _id: 5e6f036fadf2310c5e544efe,
+  title: 'Effective Java: undefined',
+  authors: 'Joshua Bloch',
+  publisher: 'Addison-Wesley Professional',
+  categories: 'Computers',
+  pageCount: 368,
+  imageLink: 'https://books.google.com/books/content?id=ka2VUBqHiWkC&printsec=frontcover&img=1&zoom=10&edge=curl&source=gbs_api',
+  description: 'Are you looking for a deeper understanding of the Java™ programming ' +
+    'language so that you can write code that is clearer, more correct, more ' +
+    'robust, and more reusable? Look no further! Effective Java™, Second ' +
+    'Edition, brings together seventy-eight indispensable programmer’s rules of ' +
+    'thumb: working, best-practice solutions for the programming challenges you ' +
+    'encounter every day. This highly anticipated new edition of the classic, ' +
+    'Jolt Award-winning work has been thoroughly updated to cover Java SE 5 and ' +
+    'Java SE 6 features introduced since the first edition. Bloch explores new ' +
+    'design patterns and language idioms, showing you how to make the most of ' +
+    'features ranging from generics to enums, annotations to autoboxing. Each ' +
+    'chapter in the book consists of several “items” presented in the form of a ' +
+    'short, standalone essay that provides specific advice, insight into Java ' +
+    'platform subtleties, and outstanding code examples. The comprehensive ' +
+    'descriptions and explanations for each item illuminate what to do, what ' +
+    'not to do, and why. Highlights include: New coverage of generics, enums, ' +
+    'annotations, autoboxing, the for-each loop, varargs, concurrency ' +
+    'utilities, and much more Updated techniques and best practices on classic ' +
+    'topics, including objects, classes, libraries, methods, and serialization ' +
+    'How to avoid the traps and pitfalls of commonly misunderstood subtleties ' +
+    'of the language Focus on the language and its most fundamental libraries: ' +
+    'java.lang, java.util, and, to a lesser extent, java.util.concurrent and ' +
+    'java.io Simply put, Effective Java™, Second Edition, presents the most ' +
+    'practical, authoritative guidelines available for writing efficient, ' +
+    'well-designed programs.',
+  createdAt: 2020-03-16T04:41:19.732Z,
+  updatedAt: 2020-03-16T04:41:19.732Z,
+  __v: 0
+},{
+  _id: 5e6f036fadf2310c5e544eff,
+  title: 'Learning React: Functional Web Development with React and Redux',
+  authors: 'Alex Banks , Eve Porcello',
+  publisher: `"O'Reilly Media, Inc."`,
+  categories: 'Computers',
+  pageCount: 350,
+  imageLink: 'https://books.google.com/books/content?id=pMTADgAAQBAJ&printsec=frontcover&img=1&zoom=10&edge=curl&source=gbs_api',
+  description: 'If you want to learn how to build efficient user interfaces with React, ' +
+    'this is your book. Authors Alex Banks and Eve Porcello show you how to ' +
+    'create UIs with this small JavaScript library that can deftly display ' +
+    'data changes on large-scale, data-driven websites without page reloads. ' +
+    'Along the way, you’ll learn how to work with functional programming and ' +
+    'the latest ECMAScript features. Developed by Facebook, and used by ' +
+    'companies including Netflix, Walmart, and The New York Times for large ' +
+    'parts of their web interfaces, React is quickly growing in use. By ' +
+    'learning how to build React components with this hands-on guide, you’ll ' +
+    'fully understand how useful React can be in your organization. Learn key ' +
+    'functional programming concepts with JavaScript Peek under the hood to ' +
+    'understand how React runs in the browser Create application presentation ' +
+    'layers by mounting and composing React components Use component trees to ' +
+    'manage data and reduce the time you spend debugging applications Explore ' +
+    'React’s component lifecycle and use it to load data and improve UI ' +
+    'performance Use a routing solution for browser history, bookmarks, and ' +
+    'other features of single-page applications Learn how to structure React ' +
+    'applications with servers in mind',
+  createdAt: 2020-03-16T04:41:19.732Z,
+  updatedAt: 2020-03-16T04:41:19.732Z,
+  __v: 0
+},{
+  _id: 5e6f036fadf2310c5e544f00,
+  title: 'Basic Economics: undefined',
+  authors: 'Thomas Sowell',
+  publisher: 'Hachette UK',
+  categories: 'Business & Economics',
+  pageCount: 704,
+  imageLink: 'https://books.google.com/books/content?id=rVc4DgAAQBAJ&printsec=frontcover&img=1&zoom=10&edge=curl&source=gbs_api',
+  description: "The bestselling citizen's guide to economics Basic Economics is a " +
+    "citizen's guide to economics, written for those who want to understand " +
+    'how the economy works but have no interest in jargon or equations. ' +
+    'Bestselling economist Thomas Sowell explains the general principles ' +
+    'underlying different economic systems: capitalist, socialist, feudal, and ' +
+    'so on. In readable language, he shows how to critique economic policies ' +
+    'in terms of the incentives they create, rather than the goals they ' +
+    'proclaim. With clear explanations of the entire field, from rent control ' +
+    'and the rise and fall of businesses to the international balance of ' +
+    'payments, this is the first book for anyone who wishes to understand how ' +
+    'the economy functions. This fifth edition includes a new chapter ' +
+    'explaining the reasons for large differences of wealth and income between ' +
+    'nations. Drawing on lively examples from around the world and from ' +
+    'centuries of history, Sowell explains basic economic principles for the ' +
+    'general public in plain English.',
+  createdAt: 2020-03-16T04:41:19.732Z,
+  updatedAt: 2020-03-16T04:41:19.732Z,
+  __v: 0
+},{
+  _id: 5e6f036fadf2310c5e544f01,
+  title: '12 Rules for Life: An Antidote to Chaos',
+  authors: 'Jordan B. Peterson',
+  publisher: 'Ballantine Books',
+  categories: 'PHILOSOPHY',
+  pageCount: 409,
+  imageLink: 'https://books.google.com/books/content?id=sxVHDwAAQBAJ&printsec=frontcover&img=1&zoom=10&edge=curl&source=gbs_api',
+  description: '"What does everyone in the modern world need to know? [The ' +
+    "author's] answer to this most difficult of questions uniquely " +
+    'combines the hard-won truths of ancient tradition with the stunning ' +
+    'revelations of cutting-edge scientific research. [The author ' +
+    'discusses] discussing discipline, freedom, adventure and ' +
+    "responsibility, distilling the world's wisdom into 12 practical and " +
+    'profound rules for life"--',
+  createdAt: 2020-03-16T04:41:19.732Z,
+  updatedAt: 2020-03-16T04:41:19.732Z,
+  __v: 0
+},{
+  _id: 5e6f036fadf2310c5e544f02,
+  title: 'Learning PHP, MySQL & JavaScript: With jQuery, CSS & HTML5',
+  authors: 'Robin Nixon',
+  publisher: `"O'Reilly Media, Inc."`,
+  categories: 'Computers',
+  pageCount: 832,
+  imageLink: 'https://books.google.com/books/content?id=vlZaDwAAQBAJ&printsec=frontcover&img=1&zoom=10&edge=curl&source=gbs_api',
+  description: 'Build interactive, data-driven websites with the potent combination of ' +
+    'open source technologies and web standards, even if you have only basic ' +
+    'HTML knowledge. In this update to this popular hands-on guide, you’ll ' +
+    'tackle dynamic web programming with the latest versions of today’s core ' +
+    'technologies: PHP, MySQL, JavaScript, CSS, HTML5, and key jQuery ' +
+    'libraries. Web designers will learn how to use these technologies together ' +
+    'and pick up valuable web programming practices along the way—including how ' +
+    'to optimize websites for mobile devices. At the end of the book, you’ll ' +
+    'put everything together to build a fully functional social networking site ' +
+    'suitable for both desktop and mobile browsers. Explore MySQL, from ' +
+    'database structure to complex queries Use the MySQLi extension, PHP’s ' +
+    'improved MySQL interface Create dynamic PHP web pages that tailor ' +
+    'themselves to the user Manage cookies and sessions and maintain a high ' +
+    'level of security Enhance the JavaScript language with jQuery and jQuery ' +
+    'mobile libraries Use Ajax calls for background browser-server ' +
+    'communication Style your web pages by acquiring CSS2 and CSS3 skills ' +
+    'Implement HTML5 features, including geolocation, audio, video, and the ' +
+    'canvas element Reformat your websites into mobile web apps',
+  createdAt: 2020-03-16T04:41:19.732Z,
+  updatedAt: 2020-03-16T04:41:19.732Z,
+  __v: 0
+}

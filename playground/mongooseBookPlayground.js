@@ -1,12 +1,34 @@
+// const fs = require('fs');
+// const path = require('path');
+// const dotenv = require('dotenv');
+// dotenv.config();
+// const JsonFp = path.join(process.env.ROOT_DIR, './playground/dumpData/allBook.json');
+
 const MongoStore = require('../server/store/MongoStore');
 
 const mongoStore = new MongoStore();
 
 const bookId = '5e6cdb3a6cd2193cb39b3209';
 
+// async function hello() {
+//     const abc = await mongoStore.getAllBook();
+//     console.log(abc);
+// }
+
+
+
+
+
+
+
+
 // mongoStore.getAllBook().then(books => {
 //     console.log(books);
-// })
+//     // fs.writeFile(JsonFp, books,  (err) => {
+//     //     if (err) throw err;
+//     //     console.log('The file has been saved!');
+//     // });
+// });
 
 // mongoStore.getBookById(bookId).then(book => {
 //     console.log(book);
@@ -28,3 +50,4 @@ const bookId = '5e6cdb3a6cd2193cb39b3209';
 // mongoStore.deleteBookById(bookId);
 
 // mongoStore.getBookById(bookId);
+

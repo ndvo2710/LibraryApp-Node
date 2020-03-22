@@ -4,7 +4,8 @@ const express = require('express');
 require('./server/db/mongoose');
 const path = require('path');
 const hbs = require('hbs');
-const bookRouter = require('./server/routers/goobooks.js');
+const goobookRouter = require('./server/routers/goobooks.js');
+const bookRouter = require('./server/routers/books.js');
 
 
 const app = express();
@@ -46,6 +47,7 @@ app.get('/about', (req, res) => {
     })
 });
 
+app.use(goobookRouter);
 app.use(bookRouter);
 
 app.listen(port, () => {

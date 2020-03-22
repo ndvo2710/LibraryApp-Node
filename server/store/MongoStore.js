@@ -80,13 +80,12 @@ class MongoStore {
 	}
 
 	async updateBookById(id, partialBookDict) {
-		const update = partialBookDict;
-		const options = { new: true, runValidators: true }
 		try {
-			const book = await this.Book.findByIdAndUpdate(id, update, options);
-			logger.info(`Updated Book: ${book}`)
+			const book = await this.Book.findByIdAndUpdate(id, partialBookDict, this.updateOptions);
+			logger.info(`Updated Book: ${book}`);
+			return book;
 		} catch(e) {
-			logger.info('Failed to update Book with id ${id}')
+			logger.info(`Failed to update Book with id ${id}`);
 			logger.debug(e);
 		}
 	}
@@ -98,6 +97,7 @@ class MongoStore {
 				throw new Error(`The book with ${id} does not exist in the system`);
 			}
 			logger.info(`Deleted Book: ${book}`);
+			return book;
 		} catch(e) {
 			logger.info('Failed to Delete Book');
 			logger.debug(e);
