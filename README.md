@@ -1,14 +1,28 @@
 # LibraryApp-Node
 
-save new book to MongoDB Atlas
+Simple library app with **Node + Express + MongoDB**
+
+App: https://library-app-node-ndvo.herokuapp.com/
+
+Cloud DB: Mongo DB Atlas
+
+#### Project Overview
+
+1. ISBN Search with fetch book data from Google Book API and show it in a card panel.
+2. Click Borrow to POST new book to db.
+3. Fetch all borrowing books data from DB to borrowing list.
+4. Update borrowing book title, author, ... via UI
+
+
+#### .env
+create .env file that contains your MongoDB Atlas Password 
 
 ```
-root@goorm:/workspace/LibraryApp(master)# node playground/mongooseBookPlayground.js
-https://libraryapp-urmgm.run-us-west2.goorm.io
-log default level is :  info
-[2020-03-14T13:25:15.288] [INFO] mongoose - Connected to MongoDB Atlas (Cloud DB)!
-[2020-03-14T13:25:15.932] [INFO] MongoStore - new book The Black Swan: The Impact of the Highly Improbable saved to DB
+MONGODB_PASSWORD=YourMongoPassword
 ```
 
-Added new line on webstorm
+#### Run
 
+dev : `npm run dev`
+
+start: `npm run start`
