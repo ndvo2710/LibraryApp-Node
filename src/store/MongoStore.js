@@ -1,7 +1,7 @@
 const mongooseConnect = require('../db/mongoose');
 const mongoose = require('mongoose');
 const bookModel = require('../models/book');
-const logging = require('../../commonUtils/loggingUtil.js');
+const logging = require('../common/loggingUtil.js');
 const logger = logging.getLogger('MongoStore');
 
 class MongoStore {

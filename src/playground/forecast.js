@@ -1,6 +1,6 @@
 const request = require('request')
 
-const getLogger = require('../commonUtils/loggingUtil');
+const getLogger = require('../common/loggingUtil');
 
 const logger = getLogger('forecast');
 

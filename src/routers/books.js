@@ -2,7 +2,7 @@ const MongoStore = require('../store/MongoStore');
 const mongoStore = new MongoStore();
 const express = require('express');
 const router = new express.Router();
-const logging = require('../../commonUtils/loggingUtil');
+const logging = require('../common/loggingUtil');
 const logger = logging.getLogger(__filename);
 
 router.post('/books', async (req, res) => {

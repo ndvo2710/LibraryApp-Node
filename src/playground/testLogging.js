@@ -1,5 +1,5 @@
 
-const getLogger = require('../commonUtils/loggingUtil');
+const getLogger = require('../common/loggingUtil');
 
 const logger = getLogger('cheese');
 logger.trace('Entering cheese testing');

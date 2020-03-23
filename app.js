@@ -1,22 +1,22 @@
-const logging = require('./commonUtils/loggingUtil');
+const logging = require('./src/common/loggingUtil');
 const logger = logging.getLogger('MainApp');
 const express = require('express');
-require('./server/db/mongoose');
+require('./src/db/mongoose');
 const path = require('path');
 const hbs = require('hbs');
-const goobookRouter = require('./server/routers/goobooks.js');
-const bookRouter = require('./server/routers/books.js');
+const goobookRouter = require('./src/routers/goobooks');
+const bookRouter = require('./src/routers/books');
 
 
 const app = express();
 const port = process.env.PORT || 3000;
 
 // Define paths for Express config
-const publicDirectoryPath = path.join(__dirname, './frontend');
+const publicDirectoryPath = path.join(__dirname, './src/public');
 console.log(publicDirectoryPath);
 
-const viewsPath = path.join(__dirname, './frontend/templates/views');
-const partialsPath = path.join(__dirname, './frontend/templates/partials');
+const viewsPath = path.join(__dirname, './src/public/templates/views');
+const partialsPath = path.join(__dirname, './src/public/templates/partials');
 
 
 // Setup handlebars engine and views location

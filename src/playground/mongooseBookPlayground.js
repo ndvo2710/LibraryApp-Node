@@ -4,7 +4,7 @@
 // dotenv.config();
 // const JsonFp = path.join(process.env.ROOT_DIR, './playground/dumpData/allBook.json');
 
-const MongoStore = require('../server/store/MongoStore');
+const MongoStore = require('../store/MongoStore');
 
 const mongoStore = new MongoStore();
 

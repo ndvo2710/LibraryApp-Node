@@ -1,7 +1,7 @@
 const bookSearch = require('../utils/bookSearch');
 const express = require('express');
 const router = new express.Router();
-const logging = require('../../commonUtils/loggingUtil');
+const logging = require('../common/loggingUtil');
 const logger = logging.getLogger(__filename);
 
 router.get('/goobooks', (req, res) => {
