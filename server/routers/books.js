@@ -54,7 +54,7 @@ router.delete('/books/:id', async (req, res) => {
         if (!book) {
             res.status(404).send()
         }
-        res.send(book)
+        res.send(book);
     } catch (e) {
         res.status(500).send()
     }

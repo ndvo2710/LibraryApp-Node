@@ -11,7 +11,7 @@
 		<form>
 			<div class="row">
 				<div class="col s12">
-					ISBN Number: 9781588365835
+					ISBN Number:
 					<div class="input-field inline">
 						<input type="text" placeholder="Please input ISBN" id="isbn">
 						<label for="isbn"></label>
@@ -36,7 +36,7 @@
 					<div class="card-action center-align">
 						<button class="btn waves-effect waves-light orange black-text left borrow" type="submit" name="action">Borrow
   						</button>
-						<button class="btn waves-effect waves-light red black-text Cancel" type="submit" name="action">Cancel
+						<button class="btn waves-effect waves-light red black-text cancel" type="submit" name="action">Cancel
   						</button>
 					</div>
                 </div>
@@ -58,7 +58,47 @@
                 </div>
             </div>
         </div>
-		
+
+        <div class="container book-update hide">
+            <div class="row">
+                <div class="col m10 offset-m1 s12">
+                    <h2 class="center-align">Update Book</h2>
+                    <div class="row">
+                        <form class="col m8 offset-m2 s12">
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input id="update-title" type="text" placeholder="Title">
+                                    <label for="update-title"></label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <input id="update-author" type="text" placeholder="Author">
+                                    <label for="update-author"></label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <input id="update-page-count" type="text" placeholder="Number of Pages">
+                                    <label for="update-page-count"></label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <textarea id="update-description" class="materialize-textarea" placeholder="Description"></textarea>
+                                    <label for="update-description"></label>
+                                </div>
+                            </div>
+
+                            <div class="divider"></div>
+                            <div class="row">
+                                <div class="col m12">
+                                    <p class="right-align">
+                                        <button class="btn btn-large waves-effect waves-light update-button" type="button" name="action">Update</button>
+                                        <button class="btn btn-large waves-effect waves-light delete-button" type="button" name="action">Delete</button>
+                                    </p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 		
 		<!-- Book Count -->
 		<h3 class="center-align">Total Books:

@@ -16,11 +16,6 @@ async function postBookData(bookDict) {
     };
     const response = await fetch(url, requestConfig);
     return await response.json();
-    // const data = await response.json();
-    // if (response.status === 200) {
-    //     return data;
-    // }
-    // throw new Error('Failed to POST book data to DB');
 }
 //
 // postBookData({
